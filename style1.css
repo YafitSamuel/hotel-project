@@ -1,102 +1,99 @@
-*{
-    padding:0; 
-    margin: 0;
-    }
-    body{
-   height: 90vh; 
-   width:100%;
-    color: cadetblue;
-    background-image: url(https://images.unsplash.com/photo-1603715749723-240c88df18b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGJsYWNrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
- 
-    }
-    .navbar{
-        margin-top: 20px;
-    }
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Shadows Into Light", cursive;
+  height: 90vh;
+  width: 100%;
+  color: cadetblue;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+}
+.navbar {
+  margin-top: 20px;
+}
 
-     li:hover >a{  
-    
-        background-color: rgba(100, 148, 237, 0.123); */
-     font-size: larger;
-     font-weight: bold;
-    }
+li:hover > a {
+  background-color: rgba(100, 148, 237, 0.123);
+  font-size: larger;
+  font-weight: bold;
+}
 
-    #video{
-        text-align: center;
-    }
+#video {
+  text-align: center;
+}
 
-    .malon{
-       width: 100%;
-       height: 70vh;
-      display: flex;
-    flex-wrap: wrap;
-      justify-content:center; 
-      
-    }
- 
-     .malon article{
-      margin: 1%;
-      width: 30%;
-      height: 300px;
-    } 
+.malon {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    .Branches{
-        width: 230px;
-        height: 150px;
-        transition-duration: 2s;
-   }
+.malon article {
+  margin: 1%;
+  width: 30%;
+  height: 300px;
+}
 
-   .Branches:hover{
-    width: 270px;
-    height: 180px;
-   }
-   #events{
-       display: flex;
-       justify-content: space-evenly;
-       margin-bottom: 50px;
-   }
-   #tital{
-       font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
-       font-weight: bold;
-       font-size: 54px;
-       margin-bottom: 30px;
-       text-align: center;
-   }
-   #tital:hover {
-       font-size: 57px;
-       color: cadetblue;
-      
-   }
-   .happening img{
-    width: 200px;
-    height: 200px;
-   display: inline-block;
-    border-radius: 50%;
-    position: relative;
-    border: 3px aqua solid;
-    transition-duration: 2s;
-    animation-name: happening ;
-    margin-top: 250px;
-   }
+.Branches {
+  width: 230px;
+  height: 150px;
+  transition-duration: 2s;
+}
 
-   .happening img:hover{
-    width: 250px;
-    height: 250px;
-   }
+.Branches:hover {
+  width: 270px;
+  height: 180px;
+}
+#events {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+#tital {
+  
+  font-weight: bold;
+  font-size: 54px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#tital:hover {
+  font-size: 57px;
+  color: cadetblue;
+}
+.happening img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  border: 3px aqua solid;
+  transition-duration: 2s;
+  animation-name: happening;
+  margin-top: 250px;
+}
 
-  #form{
-    margin-left: 200px;
-    display:flex;
-     text-align: center;
-     height: 30vh;
-     
-   }
-   .minform:hover{
-       font-weight: bold;
-       
-   }
-   @media screen and (max-width:768) { 
-    #video {max-width: 40%; }
-    .events {max-width: 10%;} 
+.happening img:hover {
+  width: 250px;
+  height: 250px;
+}
 
-   }
-   
+#form {
+  margin-left: 200px;
+  display: flex;
+  text-align: center;
+  height: 30vh;
+}
+.minform:hover {
+  font-weight: bold;
+}
+@media screen and (max-width: 768) {
+  #video {
+    max-width: 40%;
+  }
+  .events {
+    max-width: 10%;
+  }
+}
