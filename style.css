@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body{
+body {
   position: fixed;
   height: 90vh;
   width: 100vw;
@@ -13,31 +13,29 @@ body{
   color: black;
   background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
 }
-.navbar{
+.navbar {
   width: 100vw;
   margin-top: 20px;
 }
 
-li:hover > a{
+li:hover > a {
   background-color: blanchedalmond;
   font-size: larger;
   font-weight: bold;
 }
 .form {
   display: flex;
-
   text-align: center;
   margin-left: 200px;
 }
 #video {
   text-align: center;
 }
-#pra1{
+#pra1 {
   position: absolute;
   bottom: -600 px;
   right: 110px;
   font-size: 20px;
-
   justify-content: center;
   color: black;
   margin: 60px;
@@ -48,35 +46,15 @@ li:hover > a{
   text-align: center;
   font-weight: bold;
 }
-h1{
-  animation-name: sale;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-@keyframes sale{
-  0% {
-  }
-  25% {
-    color: black;
-  }
-  100% {
-    color: black;
-    font-size: 50px;
-  }
-}
-h1:hover{
-  font-weight: bold;
-  font-size: 54px;
-}
 
-.galery img{
+.galery img {
   border-radius: 50%;
-
+  border: black solid 6px;
   display: flex;
   width: 150px;
   height: 150px;
 }
-.galery{
+.galery {
   display: inline-block;
   flex-wrap: wrap;
   margin: 20px;
