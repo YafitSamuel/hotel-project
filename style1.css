@@ -7,19 +7,16 @@ body {
   font-family: "Shadows Into Light", cursive;
   height: 90vh;
   width: 100%;
-  background-image: url("https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://images.pexels.com/photos/5619280/pexels-photo-5619280.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-attachment: fixed;
   background-size: cover;
+  color: rgb(216, 72, 96);
 }
 .navbar {
   margin-top: 20px;
 }
 
-li:hover > a {
-  background-color: rgba(100, 148, 237, 0.123);
-  font-size: larger;
-  font-weight: bold;
-}
+
 
 #video {
   text-align: center;
@@ -43,7 +40,7 @@ li:hover > a {
   width: 230px;
   height: 150px;
   transition-duration: 2s;
-  border: black solid 6px;
+  border: pink solid 6px;
 }
 
 .Branches:hover {
@@ -63,7 +60,7 @@ li:hover > a {
 }
 #tital:hover {
   font-size: 57px;
-  color: black;
+  color: pink;
 }
 .happening img {
   width: 200px;
@@ -71,11 +68,11 @@ li:hover > a {
   display: inline-block;
   border-radius: 50%;
   position: relative;
-  border: 3px aqua solid;
+  border: 3px pink solid;
   transition-duration: 2s;
   animation-name: happening;
   margin-top: 250px;
- border: black solid 6px;
+ border: pink solid 6px;
 }
 
 .happening img:hover {

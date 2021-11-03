@@ -10,8 +10,10 @@ body {
   text-align: center;
   position: relative;
   font-family: "Shadows Into Light", cursive;
-  color: black;
-  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+  color: rgb(216, 72, 96);
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 }
 .navbar {
   width: 100vw;
@@ -28,8 +30,10 @@ li:hover > a {
   text-align: center;
   margin-left: 200px;
 }
-#video {
+#video  {
   text-align: center;
+  border: pink solid 10px;
+  ;
 }
 #pra1 {
   position: absolute;
@@ -49,7 +53,7 @@ li:hover > a {
 
 .galery img {
   border-radius: 50%;
-  border: black solid 6px;
+  border: pink solid 6px;
   display: flex;
   width: 150px;
   height: 150px;
