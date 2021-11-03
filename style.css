@@ -10,7 +10,7 @@ body{
   text-align: center;
   position: relative;
   font-family: "Shadows Into Light", cursive;
-  color: cadetblue;
+  color: black;
   background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
 }
 .navbar{
@@ -41,7 +41,7 @@ li:hover > a{
   justify-content: center;
   color: black;
   margin: 60px;
-  background-color: cadetblue;
+  background-color: black;
   opacity: 0.2;
 }
 #pra2 {
@@ -60,7 +60,7 @@ h1{
     color: black;
   }
   100% {
-    color: cadetblue;
+    color: black;
     font-size: 50px;
   }
 }

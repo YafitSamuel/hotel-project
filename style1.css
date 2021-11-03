@@ -2,12 +2,14 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Shadows Into Light", cursive;
   height: 90vh;
   width: 100%;
-  color: cadetblue;
-  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+  background-image: url("https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-attachment: fixed;
+  background-size: cover;
 }
 .navbar {
   margin-top: 20px;
@@ -53,7 +55,6 @@ li:hover > a {
   margin-bottom: 50px;
 }
 #tital {
-  
   font-weight: bold;
   font-size: 54px;
   margin-bottom: 30px;
@@ -61,7 +62,7 @@ li:hover > a {
 }
 #tital:hover {
   font-size: 57px;
-  color: cadetblue;
+  color: black;
 }
 .happening img {
   width: 200px;
